@@ -1,98 +1,108 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<!-- head -->
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>CSIS-390 - Info</title>
-<link rel="icon" href="inc/img/favicon.png?v=1.1">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="inc/css/styles.css">
-<!-- Fonts -->
-<link rel="stylesheet" href="inc/css/open-iconic-bootstrap.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>CSIS-390 - Info</title>
+  <link rel="icon" href="inc/img/favicon.png?v=1.1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="inc/css/styles.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="inc/css/open-iconic-bootstrap.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" >
 </head>
+
 <body>
-<div id="page_name">Info</div>
+  
 <!-- navbar -->
 <nav id="main-navbar" class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
   <a class="navbar-brand" href="index.php">      
-  	<span class="oi oi-link-intact"></span>
+    <span class="oi oi-link-intact"></span>
     <h1 class="navbar-title">CSIS-390</h1>
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-		 <span class="navbar-toggler-icon"></span>
-	</button>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" 
+          aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbar-menu">
-		 <ul class="navbar-nav mr-auto" role="tablist">
-      <li class="nav-item"><a class="nav-link btn btn-sm btn-primary" href="http://breimer.sienacs.com/#contact">Instructor</a></li>
-      <li class="nav-item"><a class="nav-link btn btn-sm btn-primary" href="http://breimer.sienacs.com/#schedule">Office Hours</a></li>
+    <ul class="navbar-nav mr-auto" role="tablist">
+      <li class="nav-item"><a class="nav-link btn btn-primary" href="http://breimer.sienacs.com/#contact">Instructor</a></li>
+      <li class="nav-item"><a class="nav-link btn btn-primary" href="http://breimer.sienacs.com/#schedule">Office Hours</a></li>
     </ul>
     <div class="navbar-text float-right">
-  		<i class="fa fa-clock-o" aria-hidden="true"></i> <span id="time-day"></span>
-  	</div>     
+      <i class="fa fa-clock-o" aria-hidden="true"></i> <span id="time-day"></span>
+    </div>     
   </div>
-</nav> <!-- /navbar --><div class="jumbotron">
-	<h2><small>&lt;h1&gt;</small>Web Application Development<small>&lt;/h1&gt;</small></h2>
-</div><!--  main container  -->		
+</nav> 
+
+<!-- jumbotron -->
+<div class="jumbotron">
+	<h1><small>&lt;h1&gt;</small>Web Application Development<small>&lt;/h1&gt;</small></h1>
+</div><!--  jumbotron  -->	
+
+<!--  container   -->	
 <div class="container">
 	
-<!--  info section   -->
-<h2 id="info" class="main-section"><small>CSIS-390</small> Students</h2>
+<!--  heading2   -->
+<h2 class="main-section"><small>CSIS-390</small> Students</h2>
+
+
+<!--  two-column layout   -->
 <div class="row">
   <div class="col-md-6">
     <div class="card bg-warning">
-		  <div class="card-header text-white">
-		    Tuesday Lab
-		  </div>
-    	<div class="card-body bg-white">
-				<ul>
-					<li>
-						<a href="student1.html">Test Student 1</a>
-					</li>
-				</ul>
-    	</div>
-		</div> <!-- /card -->		  
+      <div class="card-header text-white">Tuesday Lab</div>
+      <div class="card-body bg-white">
+        <ul>
+          <li><a href="student1.html">Test Student 1</a></li>
+          <li><a href="student2.html">Test Student 2</a></li>
+        </ul>
+      </div>
+    </div> <!-- /card -->		  
   </div> <!-- /col -->		
   <div class="col-md-6">
-    <div class="card bg-secondary">
-		  <div class="card-header text-white">
-		    Wednesday Lab
-		  </div>
-    	<div class="card-body bg-white">
-				<ul>
-					<li>
-						<a href="student2.html">Test Student 2</a>
-					</li>
-				</ul>
-    	</div>
-		</div> <!-- /card -->
-  </div> <!-- /col -->
+    <div class="card bg-warning">
+      <div class="card-header text-white">Tuesday Lab</div>
+      <div class="card-body bg-white">
+        <ul>
+          <li><a href="student1.html">Test Student 1</a></li>
+          <li><a href="student2.html">Test Student 2</a></li>
+        </ul>
+      </div>
+    </div> <!-- /card -->		  
+  </div> <!-- /col -->		
 </div> <!-- /row --> 
 
 </div><!-- /container -->
+
+<!--  footer   -->
 <footer>
-	<div class="container">
-		<ul class="footer-links">
+  <div class="container">
+    <ul class="footer-links">
       <li><a href="http://breimer.sienacs.com/#contact">Instructor</a></li>
       <li><a href="http://breimer.sienacs.com/#schedule">Office Hours</a></li>
-		</ul>
-		<p>&copy; <span id="copy-year"></span> Eric Breimer<br>
-		Built with <a href="http://v4-alpha.getbootstrap.com/">Bootstrap v4.1.2</a><br>
-		<small>Valid HTML5 + ARIA + SVG 1.1 + MathML 2.0</small></p>
-	</div>
+    </ul>
+    <p>
+      &copy; <span id="copy-year"></span> Eric Breimer<br>
+      Built with <a href="http://v4-alpha.getbootstrap.com/">Bootstrap v4.1.2</a><br>
+      <small>Valid HTML5 + ARIA + SVG 1.1 + MathML 2.0</small>
+    </p>
+  </div>
 </footer>
+
+<!-- javascript -->
 <script src="inc/js/jquery.min.js"></script>
 <script src="inc/js/popper.min.js"></script>
 <script src="inc/js/bootstrap.min.js"></script>
 <script src="inc/js/timeday.js"></script>
-<script src="inc/js/menuactive.js"></script>
 <script>
 $(function() {
-	generatetimeday();
-	highlightactive();
+generatetimeday();
 });
 </script>
+
 </body>
 </html>
