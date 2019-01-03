@@ -7522,11 +7522,12 @@ a:hover {
 @media (min-width: 768px) {
   .navbar-nav .nav-item .nav-link {
     margin: 0 4px; } }
+    
 /* ---------- Jumbotron ---------- */
 .jumbotron {
   color: #fff;
   text-shadow: 2px 2px 4px black;
-  background: #343a40 url("../img/bg2.jpg");
+  background: #394033 url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -7570,110 +7571,5 @@ footer a:hover {
 .footer-links li + li {
   margin-left: 15px; }
 
-/* ---------- Lab Styles ---------- */
-div.lab li {
-  padding: 4px 0px 4px 8px; }
-
-pre.code {
-  padding: 6px 12px;
-  border-radius: 3px;
-  border: 1px solid rgba(200, 200, 100, 0.3);
-  background-color: rgba(255, 255, 0, 0.1); }
-
-/* ---------- Schedule Styles ---------- */
-.schedule .week h6 {
-  text-transform: uppercase;
-  font-weight: 700; }
-
-.schedule .week {
-  display: none; }
-
-@media (max-width: 576px) {
-  .schedule .week {
-    display: block; } }
-.card, .schedule .card-group > .card {
-  margin-bottom: 0.75rem; }
-
-.schedule .card {
-  border-color: rgba(0, 0, 0, 0.2); }
-
-.schedule .card-body {
-  padding: 0.5em; }
-
-.schedule .card h2 {
-  float: right;
-  font-size: 0.9rem;
-  margin: 0 0 0.25rem 0.5rem; }
-
-.schedule .card h3 {
-  display: none;
-  float: right;
-  font-weight: 700;
-  font-size: 0.9em;
-  margin: 0 0.5rem 0.25rem 0;
-  text-transform: uppercase; }
-
-.schedule .card h3::after {
-  content: ": "; }
-
-@media (max-width: 576px) {
-  .schedule .card h3 {
-    display: block; } }
-.schedule .card h4 {
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin-bottom: 0.25rem; }
-
-.schedule .card h5 {
-  font-size: 1.0rem;
-  font-weight: 600;
-  margin-bottom: 0.25rem; }
-
-.schedule .card.bg-primary h6 {
-  text-transform: uppercase;
-  font-weight: 500; }
-
-.schedule .card h6 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  font-weight: 900;
-  margin-bottom: 0.25rem; }
-
-.schedule .card p {
-  font-size: 0.9rem;
-  font-weight: 400;
-  margin-bottom: 0.25rem;
-  line-height: 1.2rem; }
-
-.schedule .card.jan, .schedule .card.dec {
-  background-color: rgba(0, 122, 255, 0.2); }
-
-.schedule .card.feb, .schedule .card.nov {
-  background-color: rgba(23, 162, 185, 0.2); }
-
-.schedule .card.mar, .schedule .card.oct {
-  background-color: rgba(40, 167, 69, 0.2); }
-
-.schedule .card.apr, .schedule .card.sep {
-  background-color: rgba(255, 193, 8, 0.2); }
-
-.schedule .card.may, .schedule .card.aug {
-  background-color: rgba(220, 54, 69, 0.2); }
-
-.schedule .card.none {
-  background-color: rgba(0, 0, 0, 0.2); }
-
-.schedule .day-head .card {
-  color: #fff;
-  text-align: center; }
-
-.schedule .card .btn {
-  padding: 0.25rem 0.5rem;
-  font-size: 0.9rem;
-  border-radius: 0.2rem; }
-
-@media (max-width: 576px) {
-  .schedule .day-head {
-    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
